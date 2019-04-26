@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Space page</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Elisabeth P.">
+        <style>
+            body {
+                margin: auto;
+                width: 80%;
+                font-family: "PT Sans", sans-serif;
+                background-image: url('http://wallpapercave.com/wp/IpGSDFe.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+                color: white;
+            } 
+            .container{
+                text-align: center;
+                color: white;
+                text-transform: uppercase;
+                font-size: 100px;
+            
+            }
+            ul.parent-menu{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: visible;
+           
+            }
+            #main-menu{
+                position: sticky;
+                top: 0;
+                width: 20%;
+            }
+            li.main-menu{
+                float: left;
+                display: block;
+                background-color: black;
+                padding: 20px 30px;
+                font-size: 50px;
+            }
+            #menu{
+                font-size: 25px;
+                line-height: 2;
+            }
+            a:link , a:visited{
+                text-decoration: none;
+                color: white;
+            }
+            a:hover{
+                color:red;
+                text-decoration: underline;
+            }
+            iframe{
+                float: right;
+            }
+            .dropbtn {
+                background-color: brown;
+                color: white;
+                padding: 16px;
+                font-size: 16px;
+                border:  none;
+            }
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: gray;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .dropdown-content a:hover {background-color: #ddd;}
+
+            .dropdown:hover .dropdown-content {display: block;}
+
+            .dropdown:hover .dropbtn {background-color: darkslateblue;}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <center>Space</center>
+        </div><br>
+        <div align="center">
+		<script>
+	var m = /week11name\=([^\;]+)/i.exec(document.cookie)
+    if (m) document.write("Welcome back "+m[1]+"!<br>")</script>
+        </div><br>
+        <p align="center"> Learn something new everyday!</p><hr>
+        <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/ga3A0vWXwnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+            <nav id="main-menu" class="section">
+                <ul class="parent-menu">
+                    
+                    <li id="menu"><a href="ss.html">Our Solar System</a> 
+                    <li id="menu"><a href="challenge.html">Challenge</a>
+                    <li id="menu"><a href="new_practical.html">Contact</a>
+                    
+                </ul>
+            </nav>
+        <div class="dropdown">
+            <button class="dropbtn">Websites</button>
+            <div class="dropdown-content">
+              <a href="https://www.nasa.gov/">NASA</a>
+              <a href="https://www.esa.int/ESA">ESA</a>
+              <a href="https://www.space.com/">Popular-science</a>
+            </div>
+          </div>
+ 
+    </body>
+</html>
